@@ -94,6 +94,8 @@ Define exactly 5 measurable goals:
 
 ---
 
+## Results Analysis
+
 ### 1. Descriptive: What took place?
 
  * **Customer spending patterns**: Sophie Bahati and Robert Zaina have **lower total spending** and fewer transactions, whereas Papa Joseph is the **highest spender** with numerous purchases in several product categories (grains, cooking oil, and sugar).
