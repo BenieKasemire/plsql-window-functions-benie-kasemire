@@ -1,4 +1,4 @@
-# PL/SQL Window Functions - Goma Fresh Foods Analysis
+# PL/SQL Window Functions - Goma Fresh Foods
 
 ## Student Information
 - **Name:** Benie Kasemire
@@ -57,6 +57,8 @@ Define exactly 5 measurable goals:
 ### 1. Ranking: Use case → Top N customers by revenue
 - **Script:** [ranking.sql](scripts/ranking.sql)  
 - **Functions:** ROW_NUMBER(), RANK(), DENSE_RANK(), PERCENT_RANK()  
+- **Query:**  
+![Ranking Query](screenshots/ranking.png)
 - **Result:**  
 ![Ranking Results](screenshots/1-ranking.png)
 
@@ -65,6 +67,8 @@ Define exactly 5 measurable goals:
 ### 2. Aggregate: Use case → Running totals & trends
 - **Script:** [aggregation.sql](scripts/aggregation.sql)  
 - **Functions:** SUM(), AVG(), MIN(), MAX() with ROWS vs RANGE  
+- **Query:**  
+![Aggregate Query](screenshots/aggregate.png)
 - **Result:**  
 ![Aggregate Results](screenshots/2-aggregate.png)
 
@@ -72,7 +76,9 @@ Define exactly 5 measurable goals:
 
 ### 3. Navigation: Use case → Period-to-period analysis
 - **Script:** [navigation.sql](scripts/navigation.sql)  
-- **Functions:** LAG(), LEAD() with growth calculations  
+- **Functions:** LAG(), LEAD() with growth calculations 
+- **Query:**  
+![Navigation Query](screenshots/navigation.png) 
 - **Result:**  
 ![Navigation Results](screenshots/3-navigation.png)
 
@@ -81,6 +87,8 @@ Define exactly 5 measurable goals:
 ### 4. Distribution: Use case → Customer segmentation
 - **Script:** [distribution.sql](scripts/distribution.sql)  
 - **Functions:** NTILE(4), CUME_DIST()  
+- **Query:**  
+![Distribution Query](screenshots/distribution.png)
 - **Result:**  
 ![Distribution Results](screenshots/4-distribution.png)
 
