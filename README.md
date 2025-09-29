@@ -86,18 +86,32 @@ Define exactly 5 measurable goals:
 
 ---
 
+### 1. Descriptive: What took place?
 
-## Key Findings
-1. **Regional Performance:** Birere region contributes 45% of total revenue with Rice and Cooking Oil as top products
-2. **Customer Segmentation:** Top 25% of customers (Platinum tier) generate 62% of total revenue
-3. **Growth Trends:** Q2 2024 showed 18% quarter-over-quarter growth driven by increased customer frequency 
+ * **Customer spending patterns**: Sophie Bahati and Robert Zaina have **lower total spending** and fewer transactions, whereas Papa Joseph is the **highest spender** with numerous purchases in several product categories (grains, cooking oil, and sugar).
+ * **Monthly sales trends**: From January (12,500) to April (27,500), sales income rose gradually. It peaked in April, but then fluctuated in May (17,000) and June (17,500).
+ * **Outliers**: Due to high-value transactions (Mama Benie sold 15,000 units in April), there are significant spikes.
+
+### 2. Why is it diagnostic?
+
+ Because they favor **high-value items** (grains, cooking oil, and sugar) and make **repeat purchases**, **high spenders** (like Papa Joseph) donate more.
+ * **Regions**: Birere customers (such as Papa Joseph and Sophie Bahati) seem engaged, but their contributions vary; Joseph generates the most of the income, while Sophie makes less.
+ * **Monthly variation**: Mama Benie's big cooking oil purchase in April caused a jump in sales, while May and June saw a decline as only one or smaller-value purchases were made.
+ * **Segments**: Quartile analysis reveals that **infrequent customers (lowest 25%)** make few purchases and contribute very little, while **VIP customers (top 25%)** are few yet account for the majority of sales.
+
+### 3. Prescriptive: What comes next?
+
+ * **Retain VIPs**: To keep income flowing, offer discounts or loyalty rewards to high-spending clients (like Papa Joseph and Mama Benie).
+ * **Involve Infrequent Customers**: To encourage more frequent purchases, target Sophie Bahati and Robert Zaina with tailored promos, modest package deals, or bundled offerings.
+ Seasonal sales should be balanced.  Plan **stocking and promotions** ahead of high-sales months and launch marketing campaigns in low-activity months (e.g., May, June) because sales peaked in April.
+ * **Product strategy**: To enhance the size of the basket, bundle lower-demand items (like bread and milk) with higher-demand items (like rice and cooking oil).
 
 ---
 
 ## References
 
 1. Oracle. *Oracle Database SQL Language Reference — Window Functions.* Oracle Docs.  
-   [https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Window-Functions.html](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Window-Functions.html)
+   [https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/index.html](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Window-Functions.html)
 
 2. Oracle. *Oracle Database PL/SQL Language Reference.* Oracle Docs.  
    [https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/index.html](https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/index.html)
@@ -125,7 +139,6 @@ Define exactly 5 measurable goals:
 
 10. KDNuggets. *Designing Analytics Schemas for Retail.*  
     [https://www.kdnuggets.com/2020/06/designing-analytics-schemas-retail.html](https://www.kdnuggets.com/2020/06/designing-analytics-schemas-retail.html)
-
 
 
 ---
