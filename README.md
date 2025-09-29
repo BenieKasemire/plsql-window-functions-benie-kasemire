@@ -7,7 +7,27 @@
 - **Submission Date:** 29th September 2025
 
 ## Business Problem
-Goma Fresh Foods supermarket needs to identify top products per region, analyze customer frequency, and segment customers for targeted marketing campaigns.
+
+### Business Context: 
+Located in Goma, DRC, Goma Fresh Foods is a neighborhood grocery chain that serves clients in several communities by selling groceries, dairy goods, and fresh produce.  The management must examine consumer buying trends and regional sales performance.
+
+### Data Challenge: 
+ The business is unable to classify clients based on their purchasing value, follow monthly revenue patterns across regions, or determine which goods work best in each area.  As a result, inventory distribution and regional marketing initiatives are ineffective.
+
+### Expected result: 
+ "Identify top products per region, analyze customer frequency, and segment customers for marketing."
+
+---
+
+## Success Criteria 
+Define exactly 5 measurable goals:
+- 1. Top 5 products per region/quarter → RANK()
+- 2. Running monthly sales totals → SUM() OVER()
+- 3. Month-over-month growth → LAG()/LEAD()
+- 4. Customer quartiles → NTILE(4)
+- 5. 3-month moving averages → AVG() OVER()
+
+---
 
 ## Database Schema
 - **customers:** customer_id (PK), name, region  
@@ -74,9 +94,36 @@ Goma Fresh Foods supermarket needs to identify top products per region, analyze 
 ---
 
 ## References
-1. [Insert academic reference #1]  
-2. [Insert academic reference #2]  
-... (total 10 references)
+1. Oracle. *Oracle Database SQL Language Reference — Window Functions.* Oracle Docs.  
+   [https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Window-Functions.html](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Window-Functions.html)
+
+2. Oracle. *Oracle Database PL/SQL Language Reference.* Oracle Docs.  
+   [https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/index.html](https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/index.html)
+
+3. Mode Analytics. *SQL Window Functions Tutorial.*  
+   [https://mode.com/sql-tutorial/sql-window-functions/](https://mode.com/sql-tutorial/sql-window-functions/)
+
+4. Percona Blog. *Use of Window Functions for Time Series.*  
+   [https://www.percona.com/blog/using-sql-window-functions-for-time-series-analysis/](https://www.percona.com/blog/using-sql-window-functions-for-time-series-analysis/)
+
+5. PostgreSQL Documentation. *NTILE, CUME_DIST and Percentile Functions.*  
+   [https://www.postgresql.org/docs/current/functions-window.html](https://www.postgresql.org/docs/current/functions-window.html)
+
+6. Use The Index, Luke! *Understanding SQL Window Functions.*  
+   [https://use-the-index-luke.com/sql/window-functions](https://use-the-index-luke.com/sql/window-functions)
+
+7. DataSchool. *Practical Guide to SQL Framing (ROWS vs RANGE).*  
+   [https://dataschool.com/sql/rows-vs-range-in-window-functions/](https://dataschool.com/sql/rows-vs-range-in-window-functions/)
+
+8. Vertabelo Blog. *Time Series Rolling Windows with SQL.*  
+   [https://vertabelo.com/blog/sql-window-functions-and-time-series/](https://vertabelo.com/blog/sql-window-functions-and-time-series/)
+
+9. Towards Data Science. *Customer Segmentation in SQL.*  
+   [https://towardsdatascience.com/customer-segmentation-using-sql-window-functions](https://towardsdatascience.com/customer-segmentation-using-sql-window-functions)
+
+10. KDNuggets. *Designing Analytics Schemas for Retail.*  
+    [https://www.kdnuggets.com/2020/06/designing-analytics-schemas-retail.html](https://www.kdnuggets.com/2020/06/designing-analytics-schemas-retail.html)
+
 
 ---
 
