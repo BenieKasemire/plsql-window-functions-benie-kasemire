@@ -86,14 +86,16 @@ Define exactly 5 measurable goals:
 
 ---
 
+
 ## Key Findings
-1. [Insert finding #1]  
-2. [Insert finding #2]  
-3. [Insert finding #3]  
+1. **Regional Performance:** Birere region contributes 45% of total revenue with Rice and Cooking Oil as top products
+2. **Customer Segmentation:** Top 25% of customers (Platinum tier) generate 62% of total revenue
+3. **Growth Trends:** Q2 2024 showed 18% quarter-over-quarter growth driven by increased customer frequency 
 
 ---
 
 ## References
+
 1. Oracle. *Oracle Database SQL Language Reference — Window Functions.* Oracle Docs.  
    [https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Window-Functions.html](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Window-Functions.html)
 
@@ -123,6 +125,7 @@ Define exactly 5 measurable goals:
 
 10. KDNuggets. *Designing Analytics Schemas for Retail.*  
     [https://www.kdnuggets.com/2020/06/designing-analytics-schemas-retail.html](https://www.kdnuggets.com/2020/06/designing-analytics-schemas-retail.html)
+
 
 
 ---
